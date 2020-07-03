@@ -4,7 +4,7 @@
 
  
 
-<parameter name="browser" value="ch"></parameter>
+<parameter name="browser" value="ff"></parameter>
   <test thread-count="5" name="Login Test">
     <classes>
       <class name="com.tieto.test.LoginTest"/>
