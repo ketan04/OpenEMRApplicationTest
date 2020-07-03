@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-OpenEMRSuite">
+              <span class="suite-name border-passed">OpenEMRSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-OpenEMRSuite">
+                    <span>C:\AutomationTraining\JavaSelenium\OpenEMRApplication\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-OpenEMRSuite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-OpenEMRSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-OpenEMRSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-OpenEMRSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-OpenEMRSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-OpenEMRSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OpenEMRSuite" class="hide-methods passed suite-OpenEMRSuite"> (hide)</a> <!-- hide-methods passed suite-OpenEMRSuite -->
+                      <a href="#" panel-name="suite-OpenEMRSuite" class="show-methods passed suite-OpenEMRSuite"> (show)</a> <!-- show-methods passed suite-OpenEMRSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-OpenEMRSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenEMRSuite" title="com.tieto.test.AddPatientTest" hash-for-method="createPatientTest">createPatientTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenEMRSuite" title="com.tieto.test.LoginTest" hash-for-method="inValidCredentialTest(accousadsntant, accountant, English (Indian), Invalid username or password)">inValidCredentialTest(accousadsntant, accountant, English (Indian), Invalid username or password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenEMRSuite" title="com.tieto.test.LoginTest" hash-for-method="inValidCredentialTest(adminjns, pass, English (Indian), Invalid username or password)">inValidCredentialTest(adminjns, pass, English (Indian), Invalid username or password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenEMRSuite" title="com.tieto.test.LoginTest" hash-for-method="inValidCredentialTest(physiciasdsadn, physician, English (Indian), Invalid username or password)">inValidCredentialTest(physiciasdsadn, physician, English (Indian), Invalid username or password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenEMRSuite" title="com.tieto.test.LoginTest" hash-for-method="validCredentialTest(accountant, accountant, English (Indian), OpenEMR)">validCredentialTest(accountant, accountant, English (Indian), OpenEMR)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenEMRSuite" title="com.tieto.test.LoginTest" hash-for-method="validCredentialTest(physician, physician, English (Indian), OpenEMR)">validCredentialTest(physician, physician, English (Indian), OpenEMR)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenEMRSuite" title="com.tieto.test.LoginTest" hash-for-method="validCredentialTest(admin, pass, English (Indian), OpenEMR)">validCredentialTest(admin, pass, English (Indian), OpenEMR)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OpenEMRSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OpenEMRSuite" class="panel OpenEMRSuite">
+          <div class="suite-OpenEMRSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tieto.test.AddPatientTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPatientTest">
+                  </a> <!-- createPatientTest -->
+                  <span class="method-name">createPatientTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenEMRSuite-class-passed -->
+          <div class="suite-OpenEMRSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tieto.test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="inValidCredentialTest(accousadsntant, accountant, English (Indian), Invalid username or password)">
+                  </a> <!-- inValidCredentialTest(accousadsntant, accountant, English (Indian), Invalid username or password) -->
+                  <span class="method-name">inValidCredentialTest</span>
+                  <span class="parameters">(accousadsntant, accountant, English (Indian), Invalid username or password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inValidCredentialTest(adminjns, pass, English (Indian), Invalid username or password)">
+                  </a> <!-- inValidCredentialTest(adminjns, pass, English (Indian), Invalid username or password) -->
+                  <span class="method-name">inValidCredentialTest</span>
+                  <span class="parameters">(adminjns, pass, English (Indian), Invalid username or password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inValidCredentialTest(physiciasdsadn, physician, English (Indian), Invalid username or password)">
+                  </a> <!-- inValidCredentialTest(physiciasdsadn, physician, English (Indian), Invalid username or password) -->
+                  <span class="method-name">inValidCredentialTest</span>
+                  <span class="parameters">(physiciasdsadn, physician, English (Indian), Invalid username or password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCredentialTest(accountant, accountant, English (Indian), OpenEMR)">
+                  </a> <!-- validCredentialTest(accountant, accountant, English (Indian), OpenEMR) -->
+                  <span class="method-name">validCredentialTest</span>
+                  <span class="parameters">(accountant, accountant, English (Indian), OpenEMR)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCredentialTest(physician, physician, English (Indian), OpenEMR)">
+                  </a> <!-- validCredentialTest(physician, physician, English (Indian), OpenEMR) -->
+                  <span class="method-name">validCredentialTest</span>
+                  <span class="parameters">(physician, physician, English (Indian), OpenEMR)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCredentialTest(admin, pass, English (Indian), OpenEMR)">
+                  </a> <!-- validCredentialTest(admin, pass, English (Indian), OpenEMR) -->
+                  <span class="method-name">validCredentialTest</span>
+                  <span class="parameters">(admin, pass, English (Indian), OpenEMR)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenEMRSuite-class-passed -->
+        </div> <!-- panel OpenEMRSuite -->
+        <div panel-name="test-xml-OpenEMRSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\AutomationTraining\JavaSelenium\OpenEMRApplication\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;OpenEMRSuite&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;ch&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tieto.test.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Patient Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tieto.test.AddPatientTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Patient Test --&gt;
+&lt;/suite&gt; &lt;!-- OpenEMRSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OpenEMRSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OpenEMRSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Patient Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OpenEMRSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OpenEMRSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OpenEMRSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OpenEMRSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OpenEMRSuite');
+function tableData_OpenEMRSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createPatientTest')
+data.setCell(0, 2, 'com.tieto.test.AddPatientTest')
+data.setCell(0, 3, 28552);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validCredentialTest')
+data.setCell(1, 2, 'com.tieto.test.LoginTest')
+data.setCell(1, 3, 4956);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validCredentialTest')
+data.setCell(2, 2, 'com.tieto.test.LoginTest')
+data.setCell(2, 3, 4899);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validCredentialTest')
+data.setCell(3, 2, 'com.tieto.test.LoginTest')
+data.setCell(3, 3, 4839);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'inValidCredentialTest')
+data.setCell(4, 2, 'com.tieto.test.LoginTest')
+data.setCell(4, 3, 1879);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'inValidCredentialTest')
+data.setCell(5, 2, 'com.tieto.test.LoginTest')
+data.setCell(5, 3, 1714);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'inValidCredentialTest')
+data.setCell(6, 2, 'com.tieto.test.LoginTest')
+data.setCell(6, 3, 1662);
+window.suiteTableData['OpenEMRSuite']= { tableData: data, tableDiv: 'times-div-OpenEMRSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-OpenEMRSuite">
+              </div> <!-- times-div-OpenEMRSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OpenEMRSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OpenEMRSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OpenEMRSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OpenEMRSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tieto.test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init(ch)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validCredentialTest(admin, pass, English (Indian), OpenEMR)</span>
+                <span class="method-start">9413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">14256 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(ch)</span>
+                <span class="method-start">15030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validCredentialTest(physician, physician, English (Indian), OpenEMR)</span>
+                <span class="method-start">23271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">28227 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(ch)</span>
+                <span class="method-start">28927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validCredentialTest(accountant, accountant, English (Indian), OpenEMR)</span>
+                <span class="method-start">37506 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">42406 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(ch)</span>
+                <span class="method-start">43185 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inValidCredentialTest(adminjns, pass, English (Indian), Invalid username or password)</span>
+                <span class="method-start">51710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">53373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(ch)</span>
+                <span class="method-start">54038 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inValidCredentialTest(physiciasdsadn, physician, English (Indian), Invalid username or password)</span>
+                <span class="method-start">62503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">64382 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init(ch)</span>
+                <span class="method-start">65034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inValidCredentialTest(accousadsntant, accountant, English (Indian), Invalid username or password)</span>
+                <span class="method-start">73408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">75122 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tieto.test.AddPatientTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init(ch)</span>
+                <span class="method-start">75904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createPatientTest</span>
+                <span class="method-start">84621 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">113173 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

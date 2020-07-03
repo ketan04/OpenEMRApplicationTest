@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OpenEMRSuite" duration-ms="114469" started-at="2020-07-03T16:43:15 IST" finished-at="2020-07-03T16:45:10 IST">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="76402" started-at="2020-07-03T16:43:15 IST" finished-at="2020-07-03T16:44:32 IST">
+      <class name="com.tieto.test.LoginTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.tieto.test.LoginTest@56235b8e]" name="init" is-config="true" duration-ms="9412" started-at="2020-07-03T16:43:16 IST" finished-at="2020-07-03T16:43:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validCredentialTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.tieto.test.LoginTest@56235b8e]" name="validCredentialTest" duration-ms="4839" started-at="2020-07-03T16:43:25 IST" data-provider="validCredentialData" finished-at="2020-07-03T16:43:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[English (Indian)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentialTest -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tieto.test.LoginTest@56235b8e]" name="end" is-config="true" duration-ms="772" started-at="2020-07-03T16:43:30 IST" finished-at="2020-07-03T16:43:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.tieto.test.LoginTest@56235b8e]" name="init" is-config="true" duration-ms="8240" started-at="2020-07-03T16:43:31 IST" finished-at="2020-07-03T16:43:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validCredentialTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.tieto.test.LoginTest@56235b8e]" name="validCredentialTest" duration-ms="4956" started-at="2020-07-03T16:43:39 IST" data-provider="validCredentialData" finished-at="2020-07-03T16:43:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[English (Indian)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentialTest -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tieto.test.LoginTest@56235b8e]" name="end" is-config="true" duration-ms="699" started-at="2020-07-03T16:43:44 IST" finished-at="2020-07-03T16:43:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.tieto.test.LoginTest@56235b8e]" name="init" is-config="true" duration-ms="8579" started-at="2020-07-03T16:43:45 IST" finished-at="2020-07-03T16:43:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validCredentialTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.tieto.test.LoginTest@56235b8e]" name="validCredentialTest" duration-ms="4899" started-at="2020-07-03T16:43:53 IST" data-provider="validCredentialData" finished-at="2020-07-03T16:43:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[accountant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[accountant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[English (Indian)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OpenEMR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentialTest -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tieto.test.LoginTest@56235b8e]" name="end" is-config="true" duration-ms="689" started-at="2020-07-03T16:43:58 IST" finished-at="2020-07-03T16:43:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.tieto.test.LoginTest@56235b8e]" name="init" is-config="true" duration-ms="8525" started-at="2020-07-03T16:43:59 IST" finished-at="2020-07-03T16:44:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="inValidCredentialTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.tieto.test.LoginTest@56235b8e]" name="inValidCredentialTest" duration-ms="1662" started-at="2020-07-03T16:44:08 IST" data-provider="excelReadForInvalidData" finished-at="2020-07-03T16:44:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adminjns]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[English (Indian)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidCredentialTest -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tieto.test.LoginTest@56235b8e]" name="end" is-config="true" duration-ms="663" started-at="2020-07-03T16:44:09 IST" finished-at="2020-07-03T16:44:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.tieto.test.LoginTest@56235b8e]" name="init" is-config="true" duration-ms="8465" started-at="2020-07-03T16:44:10 IST" finished-at="2020-07-03T16:44:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="inValidCredentialTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.tieto.test.LoginTest@56235b8e]" name="inValidCredentialTest" duration-ms="1879" started-at="2020-07-03T16:44:18 IST" data-provider="excelReadForInvalidData" finished-at="2020-07-03T16:44:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[physiciasdsadn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[physician]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[English (Indian)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidCredentialTest -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tieto.test.LoginTest@56235b8e]" name="end" is-config="true" duration-ms="651" started-at="2020-07-03T16:44:20 IST" finished-at="2020-07-03T16:44:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.tieto.test.LoginTest@56235b8e]" name="init" is-config="true" duration-ms="8374" started-at="2020-07-03T16:44:21 IST" finished-at="2020-07-03T16:44:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="inValidCredentialTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.tieto.test.LoginTest@56235b8e]" name="inValidCredentialTest" duration-ms="1714" started-at="2020-07-03T16:44:29 IST" data-provider="excelReadForInvalidData" finished-at="2020-07-03T16:44:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[accousadsntant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[accountant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[English (Indian)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username or password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidCredentialTest -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tieto.test.LoginTest@56235b8e]" name="end" is-config="true" duration-ms="691" started-at="2020-07-03T16:44:31 IST" finished-at="2020-07-03T16:44:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.tieto.test.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Patient Test" duration-ms="37980" started-at="2020-07-03T16:44:32 IST" finished-at="2020-07-03T16:45:10 IST">
+      <class name="com.tieto.test.AddPatientTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.tieto.test.AddPatientTest@67b92f0a]" name="init" is-config="true" duration-ms="8716" started-at="2020-07-03T16:44:32 IST" finished-at="2020-07-03T16:44:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="createPatientTest()[pri:0, instance:com.tieto.test.AddPatientTest@67b92f0a]" name="createPatientTest" duration-ms="28552" started-at="2020-07-03T16:44:41 IST" finished-at="2020-07-03T16:45:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPatientTest -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.tieto.test.AddPatientTest@67b92f0a]" name="end" is-config="true" duration-ms="708" started-at="2020-07-03T16:45:09 IST" finished-at="2020-07-03T16:45:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.tieto.test.AddPatientTest -->
+    </test> <!-- Patient Test -->
+  </suite> <!-- OpenEMRSuite -->
+</testng-results>
